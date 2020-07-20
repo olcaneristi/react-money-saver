@@ -1,38 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #4b79a1,
+    #283e51
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  width: 500px;
+  background-color: rgb(240, 232, 232, 0.6);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+h1 {
+  padding: 20px 0 20px;
+  font-size: 40px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.earn {
+  color: rgb(56, 141, 56);
+}
+
+.gif img {
+  width: 250px;
+  height: 250px;
+  padding: 20px 0 30px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0 20px;
+}
+
+.inc,
+.dec,
+.res {
+  cursor: pointer;
+  font-family: "Chakra Petch", sans-serif;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.inc {
+  border: 2px solid green;
+}
+.dec {
+  border: 2px solid rgb(233, 20, 20, 0.9);
+}
+
+.res {
+  border: 2px solid rgb(16, 86, 119);
+}
+
+.inc:hover,
+.dec:hover,
+.res:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.inc:hover {
+  background-color: green;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dec:hover {
+  background: rgb(233, 20, 20, 0.9);
+  color: white;
+}
+.res:hover {
+  background: rgb(16, 86, 119);
+  color: white;
 }
