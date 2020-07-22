@@ -1,11 +1,26 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## [Demo](https://react-money-saver.vercel.app/)
+## [Live Demo](https://react-currency-converter-ashy.vercel.app/)
 
+### Getting Started
 
-In the project directory, you can run:
+#### install deps
+```bash
+$ npm install
 
-### `yarn start`
+#or
+
+$ yarn install
+```
+
+#### and run project
+```bash
+$ npm start
+
+#or 
+
+$ yarn start
+```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
