@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## [Live Demo](https://react-currency-converter-ashy.vercel.app/)
+## [Demo](https://react-money-saver.vercel.app/)
 
 ### Getting Started
 
